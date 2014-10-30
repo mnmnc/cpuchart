@@ -3,7 +3,8 @@ cpuchart
 
 CPU chart/graph in console. ASCII version.
 
-There is a single variable in the scipt and that is number of columns you want the chart to be wide.
+There is a single **variable** in the scipt and that is **number of columns** you want the chart to be wide.
+
 
 **Dependencies:**
 
@@ -12,7 +13,7 @@ There is a single variable in the scipt and that is number of columns you want t
   `mpstat`
 
 
-Example:
+**Example:**
 
 ![Console CPU graph.](https://raw.githubusercontent.com/mnmnc/img/master/graph.png)
 
