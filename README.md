@@ -5,8 +5,9 @@ CPU chart/graph in console. ASCII version.
 
 Dependencies:
 
-    sleep (sleep for a fraction of second is not supported by older versions of sleep)
-    mpstat
+*** `sleep` (sleep for a fraction of second is not supported by older versions of sleep)
+
+*** `mpstat`
 
 
 Example:
