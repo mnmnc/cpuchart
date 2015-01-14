@@ -28,7 +28,7 @@ while true; do
     # COLLECT UPDATE
     #
   
-    idle=`mpstat 1 1 | grep "Average" | tail -1 | sed 's/ \+/ /g' | cut -d " " -f 11 | tr -d"\n"`;
+    idle=`mpstat 1 1 | grep "Average" | tail -1 | sed 's/ \+/ /g' | cut -d " " -f 11 | tr -d "\n"`;
   
     usage=`echo "scale=0;(100-$idle)/10" |bc`;
   
